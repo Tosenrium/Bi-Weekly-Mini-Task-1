@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    background-color: #cccccc;
+}
+
+.wrapper{
+    width: 100%;
+    table-layout: fixed;
+    background-color: #cccccc;
+    padding-bottom: 2.5rem;
+}
+
+table{
+margin: 0 auto;
+width: 100%;
+max-width: 600px;
+background-color: white;
+border-spacing: 0;
+font-family: sans-serif;
+color: rgb(246,246,246);
+}
+.table{
+    border-spacing: 0;
+}
+
+td {
+    padding: 0;
+}
+
+img, i {
+    border: 0;
+}
+.social {
+    text-align: center;
+    padding: 0.5rem 0 0.25rem;
+    background-color: #eaf6fb;
+    border-top: 2px solid #21c6b8;
+    border-bottom: 3px solid #21c6b8;
+}
+.youtube, .insta, .fb, .twitter, .linkedin  {
+    width: 2rem;
+}
+
+.logo-img{
+    text-align: center;
+    background-color: rgb(21,182,234);
+    padding: 2rem 0 2rem;
+}
+
+.logo-img img{
+    width: 7rem;
+    border-radius: 50%;
+    border: 2px solid #fff; 
+}
+
+.hero-statement {
+    text-align: center;
+    background-color: rgb(21,182,234);
+    padding: 1rem;
+    color:white;
+    position: relative;
+}
+
+.banner-img{
+    background-color: rgb(21,182,234);
+    text-align: center;
+    height: 4vh;
+    border: 2px solid rgb(21,182,234);
+    overflow: hidden;
+}
+.banner-img img{
+    max-width: 60%;
+    width: 37.5rem;
+    margin-top: -5.5rem;
+    margin-bottom: -14.1rem;
+}
+
+.content {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 2rem;
+}
+
+
+a {
+    text-decoration: none;
+    color:rgb(209,248,250);
+}
+
+.overflow{
+    overflow: hidden;
+}
+
+article{
+    margin-bottom: 3.5rem;
+    color: rgb(111,111,111);
+    
+}
+.content article p:last-child, p:first-child{
+    font-weight: bold;
+}
+
+.contact-box .fas {
+    color: rgb(111,111,111);
+  }
+ .contact-box .holder {
+     display:inline-block;
+     padding: 0 3rem;
+ }
+ 
+ .contact-box {
+     width: 37.5rem;
+     max-width: 37.5rem;
+     background-color: rgb(244,244,244);
+     padding: 1rem;
+     text-align: center;
+     color:rgb(164,164,164);
+ }
+ 
+ .button{
+     padding: 1rem 3rem;
+     background-color: rgb(21,182,234); 
+     text-align: center;
+     font-weight: bold;
+     letter-spacing: 0.5px;
+ }
+
+ .footer-box h4 {
+    display: inline-block;
+    padding: 0 0.5rem;
+    font-size: 0.75rem;
+}
+.footer-box {
+    padding: 1rem 1rem;
+    text-align: center;
+    background-color: rgb(229,233,232);
+    color: rgb(165,164,169);
+}
+
+.address{
+    margin-bottom: 3rem;
+}
+.address, .privacy  a {
+    padding: 0 2rem;
+    font-size: 0.9rem;
+}
+
+.privacy {
+    margin-bottom: -3rem;
+}
+.address, .footer-box h4 a, .privacy  a {
+    color: rgb(165,164,169);
+}
+
+@media screen and (max-width: 37.5rem) {
+    .contact-box .last {
+        width: 16rem !important;
+        max-width: 16rem !important;
+    }
+}
+
+@media screen and (max-width: 25rem) {
+    .contact-box .before-last {
+        width: 16rem !important;
+        max-width: 16rem !important;
+    }
+}
+
