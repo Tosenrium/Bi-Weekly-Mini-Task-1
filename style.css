@@ -58,21 +58,30 @@ img, i {
     background-color: rgb(21,182,234);
     padding: 1rem;
     color:white;
-    position: relative;
+    padding-bottom: 7rem;
+}
+
+.main-img {
+    color:rgb(21,182,234);
 }
 
 .banner-img{
     background-color: rgb(21,182,234);
     text-align: center;
-    height: 4vh;
-    border: 2px solid rgb(21,182,234);
+    height: 8vh;
     overflow: hidden;
 }
+
+
+
 .banner-img img{
     max-width: 60%;
     width: 37.5rem;
-    margin-top: -5.5rem;
-    margin-bottom: -14.1rem;
+    padding-bottom: 1rem;
+    margin: -10.3rem 0 -14.1rem 0;
+    background-color:rgb(21,182,234);
+    color: rgb(21,182,234);
+    z-index: 1;
 }
 
 .content {
